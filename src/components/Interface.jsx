@@ -50,7 +50,7 @@ const AboutSection = (props) => {
   return (
     <Section mobileTop>
       <h1 className="text-4xl text-[#2C2C54] md:text-4xl font-extrabold leading-snug mt-8 md:mt-0">
-        Je suis
+        Je suis zanoub
         <br />
         <span className="bg-white text-[#4D2C91] px-1 italic">Zineb EL GHILANI</span>
       </h1>
@@ -81,7 +81,7 @@ const AboutSection = (props) => {
         </motion.button>
 
         <motion.a
-          href="/cv.pdf"
+          href="/creation/cv.pdf"
           download
           className="bg-[#6C5B7B] text-[#FFFFFF] py-4 px-8 rounded-lg font-bold text-lg inline-block text-center"
           initial={{ opacity: 0, y: 25 }}
