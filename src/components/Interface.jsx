@@ -50,7 +50,7 @@ const AboutSection = (props) => {
   return (
     <Section mobileTop>
       <h1 className="text-4xl text-[#2C2C54] md:text-4xl font-extrabold leading-snug mt-8 md:mt-0">
-        Je suis zanoub
+        Je suis 
         <br />
         <span className="bg-white text-[#4D2C91] px-1 italic">Zineb EL GHILANI</span>
       </h1>
