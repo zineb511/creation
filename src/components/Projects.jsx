@@ -29,6 +29,16 @@ export const projects = [
     image: "projects/4.jpg",
   },
   {
+   title: "Acaps",
+   url: "https://www.youtube.com/watch?v=nR1HK03ZN7E",
+   image: "projects/8.jpg",
+ },
+ {
+   title: "Dépression Natale",
+   url: "https://youtube.com/shorts/vm034BtccBk?si=2iDtyyeEgmODMR85",
+   image: "projects/7.jpg",
+ },
+  {
     title: "Histoire des Jeux Vidéo",
     url: "https://youtu.be/pj1sS8iYWu0?si=BqIt13xe8HRBKvWK",
     image: "projects/5.jpg",
@@ -37,11 +47,6 @@ export const projects = [
     title: "Aid Al Arch",
     url: "https://youtu.be/tYo3QZIVZcI?si=_W8Me03B22-edNz6",
     image: "projects/6.jpg",
-  },
-  {
-    title: "Dépression Natale",
-    url: "https://youtube.com/shorts/vm034BtccBk?si=2iDtyyeEgmODMR85",
-    image: "projects/7.jpg",
   },
 ];
 

@@ -55,54 +55,46 @@ const AboutSection = (props) => {
         <span className="bg-white text-[#4D2C91] px-1 italic">Zineb EL GHILANI</span>
       </h1>
       <motion.p
-        className="text-lg text-[#333333] mt-4"
-        initial={{
-          opacity: 0,
-          y: 25,
-        }}
-        whileInView={{
-          opacity: 1,
-          y: 0,
-        }}
-        transition={{
-          duration: 1,
-          delay: 1.5,
-        }}
+        className="text-lg text-[#333333] mt-6 "
+        initial={{ opacity: 0, y: 25 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 1.5 }}
       >
-        Je produis des vidéos et créations graphiques 
+        Je produis des <b>vidéos</b>  et <b>créations graphiques </b>
         <br />
         qui renforcent votre présence et engagent 
-        <br />
-        votre public.
+         public.
       </motion.p>
-      <motion.button
-  onClick={() => {
-    window.open(
-      'https://wa.me/212719420818',
-      '_blank'
-    );
-  }}
-  className={`bg-[#6C5B7B] text-[#FFFFFF] py-4 px-8 
-  rounded-lg font-bold text-lg mt-4 md:mt-16`}
-  initial={{
-    opacity: 0,
-    y: 25,
-  }}
-  whileInView={{
-    opacity: 1,
-    y: 0,
-  }}
-  transition={{
-    duration: 1,
-    delay: 2,
-  }}
->
-  Contactez-moi sur WhatsApp
-</motion.button>
 
+      {/* Conteneur flex pour aligner les deux boutons sur la même ligne */}
+      <div className="flex gap-4 mt-4 md:mt-[10%]">
+        <motion.button
+          onClick={() => {
+            window.open('https://wa.me/212719420818', '_blank');
+          }}
+          className="bg-[#6C5B7B] text-[#FFFFFF] py-4 px-8 rounded-lg font-bold text-lg"
+          initial={{ opacity: 0, y: 25 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 2 }}
+        >
+          Contactez-moi sur WhatsApp
+        </motion.button>
+
+        <motion.a
+          href="/cv.pdf"
+          download
+          className="bg-[#6C5B7B] text-[#FFFFFF] py-4 px-8 rounded-lg font-bold text-lg inline-block text-center"
+          initial={{ opacity: 0, y: 25 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 2 }}
+        >
+          Télécharger le CV
+        </motion.a>
+      </div>
     </Section>
   );
 };
+
 
 const skills = [
   {
@@ -158,7 +150,7 @@ const SkillsSection = () => {
           {skills.map((skill, index) => (
             <div className="w-full md:w-64" key={index}>
               <motion.h3
-                className="text-lg md:text-xl font-bold text-gray-100"
+                className="text-lg md:text-xl font-bold text-white"
                 initial={{
                   opacity: 0,
                 }}

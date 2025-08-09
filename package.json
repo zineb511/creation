@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@formspree/react": "^2.4.2",
@@ -23,6 +23,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "three": "0.146.0"
+  },
+  "overrides": {
+    "@radix-ui/react-use-callback-ref": "^1.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
