@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://github.com/zineb511/creation",
+  "homepage": "https://zineb511.github.io/creation",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
